@@ -1,5 +1,9 @@
 package pl.khomenko.demo;
 
 public class Test13 {
-	public String pool;
+	public long pool;
+
+	Test13(long pool) {
+		this.pool = pool;
+	}
 }
