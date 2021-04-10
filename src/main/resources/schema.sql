@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS LOGI;
+
+CREATE TABLE LOGI(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        login VARCHAR(250) NOT NULL,
+        pasword INT NOT NULL
+        );
